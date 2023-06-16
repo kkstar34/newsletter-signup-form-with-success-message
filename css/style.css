@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.card{
+    height: 500px;
+    width: 700px;
+    border-radius: 1.5rem;
+    background-color: white;
+    display: flex;
+    padding: 1.5rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:   hsl(235, 18%, 26%);
+}
+
+.brand{
+    width: 40%;
+    background-image: url('../assets/images/illustration-sign-up-desktop.svg');
+    background-repeat: no-repeat;
+    background-position : center;
+    background-size : cover;
+    border-radius : 0.8rem;
+}
+
+.textual{
+    width: 60%;
+    padding: 1rem;
+}
+
+.title{
+    font-size: 2.5rem;
+    color: hsl(234, 29%, 20%);
+}
+
+.box p {
+    margin-top: 0.5rem;
+}
+
+.features{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.feature--icon{
+    margin-right: 0.5rem;
+}
+
+.email-title{
+    font-size: 0.7rem;
+    color : hsl(234, 29%, 20%);
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.form{
+    margin-top: 2rem;
+}
+
+.input-email{
+    border-radius: 0.5rem;
+    padding : 0.8rem;
+    width : 300px;
+}
+
+.btn-submit{
+    border-radius: 0.5rem;
+    padding : 0.8rem;
+    width : 300px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.btn-submit span{
+    font-size: 0.8rem;
+}
